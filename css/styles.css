@@ -2,21 +2,20 @@
   display: block;
   margin: auto;
   background-color: rgba(66, 133, 244, 0.6);
-  width: 554px;
+  width: 677px;
+  height: 600px;
   padding-top: 30px;
   padding-bottom: 19px;
-  border-radius: 50px;
+  border-radius: 50%;
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 17pt;
   color: white;
 }
 
 #btn-red {
   display: block;
   margin: auto;
-  margin-bottom: 19px;
   margin-top: 19px;
   padding: 4px;
   background-color: rgba(66, 133, 244, 0.6);
@@ -24,7 +23,7 @@
   text-align: center;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 17pt;
+  font-size: 12pt;
   border: 3px solid white;
   padding: 10px;
   border-radius: 4px;
@@ -33,13 +32,12 @@
 label, input {
   padding: 8px;
   border-radius: 4px;
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 label {
   margin-right: 0px;
   font-weight: lighter;
+  font-size: 13pt;
 }
 
 h4 {
@@ -47,4 +45,5 @@ h4 {
   border: 3px solid white;
   padding: 5px;
   border-radius: 4px;
+  font-size: 14pt;
 }
