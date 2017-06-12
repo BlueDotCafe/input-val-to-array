@@ -14,6 +14,8 @@ $(document).ready(function() {
   });
 });
 
+https://stackoverflow.com/questions/10523200/storing-user-input-in-array
+
 
 /*var favoriteThings = ["1", "2", "3", "4", "5"];
 
