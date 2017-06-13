@@ -3,31 +3,47 @@ $(document).ready(function() {
   $("#input-form").submit(function() {
     event.preventDefault();
 
+      var first = $("#fav1").val();
+      var second = $("#fav2").val();
+      var third = $("#fav3").val();
+      var fourth = $("#fav4").val();
+      var fifth = $("#fav5").val();
 
-        var favs = [
-          $("#fav1").val(),
-          $("#fav2").val(),
-          $("#fav3").val(),
-          $("#fav4").val(),
-          $("#fav5").val()
-        ];
+      var favs = [first, second, third, fourth, fifth];
 
-        $("input").keyup(function() {
-          var value = $( this ).val();
-          $( "p" ).text( value );
-          })
-          .keyup();
+      $(".fav1").text(favs[0]);
+      $(".fav2").text(favs[1]);
+      $(".fav3").text(favs[2]);
+      $(".fav4").text(favs[3]);
+      $(".fav5").text(favs[4]);
 
-
-          var currentAnswer = answers[i];
-          console.log(currentAnswer);
-          tally[currentAnswer]++;
-        }
-
-  });
+      $("#array").show();
+    });
 });
 
-https://stackoverflow.com/questions/10523200/storing-user-input-in-array
+
+//      $(getElementsByClassName('fav5').text(favs[4]))
+
+
+        // var favs = [
+        //   $("#fav1").val(),
+        //   $("#fav2").val(),
+        //   $("#fav3").val(),
+        //   $("#fav4").val(),
+        //   $("#fav5").val()
+        // ];
+        //
+        //
+        //
+        // $("input").keyup(function() {
+        //   var value = $( this ).val();
+        //   $( "p" ).text( value );
+        //   })
+        //   .keyup();
+        //
+        // })
+
+// https://stackoverflow.com/questions/10523200/storing-user-input-in-array
 
 /*VERSION 1--
 var favoriteThings = ["1", "2", "3", "4", "5"];
